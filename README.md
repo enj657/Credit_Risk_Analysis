@@ -10,6 +10,16 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 ## Results
 
-![image info](./Resources/.png)
+![image info](./Resources/randomoversampler.png)
+
+![image info](./Resources/smote.png)
+
+![image info](./Resources/clustercentroids.png)
+
+![image info](./Resources/smoteenn.png)
+
+![image info](./Resources/balancedrandomforestclassifier.png)
+
+![image info](./Resources/easyensembleclassifier.png)
 
 ## Summary
