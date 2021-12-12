@@ -26,7 +26,7 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 1% and the recall is 55%.
 
-* The low_risk precision is 100% and the recall is 67%.
+* The low_risk precision is 100% and the recall is 67%. The low_risk population is high, so the precision score is high.
 
 ![image info](./Resources/smote.png)
 
@@ -36,7 +36,7 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 1% and the recall is 60%.
 
-* The low_risk precision is 100% and the recall is 45%.
+* The low_risk precision is 100% and the recall is 45%. The recall is only 45% because of a high number of false positives.
 
 ![image info](./Resources/clustercentroids.png)
 
@@ -46,7 +46,7 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 1% and the recall is 75%.
 
-* The low_risk precision is 100% and the recall is 56%.
+* The low_risk precision is 100% and the recall is 56%. The recall is only 56% because of a high number of false positives.
 
 ![image info](./Resources/smoteenn.png)
 
@@ -56,7 +56,7 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 4% and the recall is 67%.
 
-* The low_risk precision is 100% and the recall is 91%.
+* The low_risk precision is 100% and the recall is 91%. The recall is 91% because of a low number of false positives.
 
 ![image info](./Resources/balancedrandomforestclassifier.png)
 
@@ -66,9 +66,10 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 7% and the recall is 91%.
 
-* The low_risk precision is 100% and the recall is 94%.
+* The low_risk precision is 100% and the recall is 94%. The recall is 94% because of a low number of false positives.
 
 ![image info](./Resources/easyensembleclassifier.png)
 
 ## Summary
 
+I ran six different tests to determine balanced accuracy, precision, and recall. None of the tests showed high precision in determining if a credit risk is high or not. The high_risk precision didn't get above 7%, which is very low. The best model we used was the EasyEnsembleClassifier model because it has a recall of 91% for high_risk, but the precision was still low at 7%. Since the precision is low, a lot of low_risk credits are falsely detected as high_risk, which is not good. Overall, none of these models are good enough to predict credit risk.
