@@ -6,7 +6,7 @@ For this analysis, I need to solve a credit card risk challenge using machine le
 
 ### Purpose
 
-
+The purpose of this analysis is to determine whether these machine learning models should be used to predict credit risk.
 
 ## Results
 
