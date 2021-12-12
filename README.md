@@ -14,9 +14,9 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The balanced accuracy score is about 65%.
 
-* The high_risk precision is 1% and its recall score is 62%.
+* The high_risk precision is 1% and its recall score is 63%.
 
-* The low_risk precision score is 100% with a recall of 68%. The precision score is very high because the low_risk population is high.
+* The low_risk precision score is 100% with a recall of 67%. The precision score is very high because the low_risk population is high.
 
 ![image info](./Resources/randomoversampler.png)
 
@@ -26,7 +26,7 @@ The purpose of this analysis is to determine whether these machine learning mode
 
 * The high_risk precision is 1% and the recall is 55%.
 
-* The low_risk precision is 100% and the recall is 67%. The low_risk population is high, so the precision score is high.
+* The low_risk precision is 100% and the recall is 66%. The low_risk population is high, so the precision score is high.
 
 ![image info](./Resources/smote.png)
 
